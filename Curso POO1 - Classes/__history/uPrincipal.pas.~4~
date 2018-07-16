@@ -1,0 +1,36 @@
+unit uPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uClasses, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    btnCadastrar: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    procedure btnCadastrarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnCadastrarClick(Sender: TObject);
+var
+   obj : TProduto;
+begin
+  obj := TProduto.Create;
+end;
+
+end.

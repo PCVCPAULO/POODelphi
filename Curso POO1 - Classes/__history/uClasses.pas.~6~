@@ -1,0 +1,49 @@
+unit uClasses;
+
+interface
+   type
+      TProduto = class
+         private
+            FCodigo: Integer;
+            FNome: String;
+
+         public
+            property Codigo:Integer read FCodigo write FCodigo;
+            property Nome:String read FNome write FNome;
+            constructor Create;
+            destructor Destroy;override;
+      end;
+
+      TPedido = class
+        private
+          FTotal: double;
+          function getTotal():double;
+        public
+          property Total:double read getTotal;
+
+      end;
+
+implementation
+
+{ TProduto }
+
+constructor TProduto.Create;
+begin
+   inherited Create;
+   FCodigo := 0;
+   FNome := 'Default';
+end;
+
+destructor TProduto.Destroy;
+begin
+  inherited;
+end;
+
+{ TPedido }
+
+function TPedido.getTotal: double;
+begin
+  return FTotal;
+end;
+
+end.

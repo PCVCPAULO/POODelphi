@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/14 15:37:31.000.588,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/14 15:37:48.000.329,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\Unit1.pas</Transaction>
+    <Transaction>2018/07/14 15:37:48.000.329,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\Unit1.dfm</Transaction>
+    <Transaction>2018/07/14 15:37:54.000.607,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\CursoPOO.dproj</Transaction>
+    <Transaction>2018/07/14 15:38:31.000.348,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\uClasses.pas</Transaction>
+    <Transaction>2018/07/14 15:38:31.000.437,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\uPrincipal.pas</Transaction>
+    <Transaction>2018/07/14 15:41:42.000.203,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\Unit1.pas=</Transaction>
+    <Transaction>2018/07/14 20:31:59.000.656,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\Unit2.pas</Transaction>
+    <Transaction>2018/07/14 20:32:12.000.870,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\Unit2.pas=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO Avançado\uInterfaces.pas</Transaction>
+  </Transactions>
+</BorlandProject>

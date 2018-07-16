@@ -1,0 +1,32 @@
+unit uClasses;
+
+interface
+   type
+      TProduto = class
+         private
+            FCodigo: Integer;
+            FNome: String;
+
+         public
+            property Codigo:Integer read FCodigo write FCodigo;
+            property Nome:String read FNome write FNome;
+            constructor Create;
+            destructor Destroy;override;
+   end;
+
+implementation
+
+{ TProduto }
+
+constructor TProduto.Create;
+begin
+   inherited Create;
+end;
+
+destructor TProduto.Destroy;
+begin
+
+  inherited;
+end;
+
+end.

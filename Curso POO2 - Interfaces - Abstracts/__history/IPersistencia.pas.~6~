@@ -1,0 +1,190 @@
+unit IPersistencia;
+
+interface
+
+  type
+    TFieldType = (ftString, ftMemo, ftFloat, ftInteger, ftDate);
+
+
+    IField = interface
+
+      function getName:string;
+      procedure setName(Value:string);
+
+      function getFieldType:TFieldType;
+      procedure setFieldType(Value:TFieldType);
+
+      function getIsPk:Boolean;
+      procedure setIsPk(Value:Boolean);
+
+      function getString:string;
+      procedure setString(Value:String);
+
+      function getFloat:Double;
+      procedure setFloat(Value:Double);
+
+      function getInteger:Integer;
+      procedure setInteger(Value:Integer);
+
+      function getDate:TDateTime;
+      procedure setDate(Value:TDateTime);
+
+      function getValue:Variant;
+      procedure setValue(Value:Variant);
+
+
+      property Name:String read getName write setName;
+      property FieldType:TFieldType read getFieldType write setFieldType;
+      property isPk:Boolean read getIsPk write setIsPk;
+      property AsString:string read getString  write setString;
+      property AsFloat:Double read getFloat write setFloat;
+      property AsInteger:integer read getInteger write setInteger;
+      property AsDate:TDateTime read getDate write setDate;
+      property AsValue:Variant read getValue write setValue;
+    end;
+
+
+
+    ITable = interface
+
+      function getTableName():string;
+      procedure setTableName(Value:String);
+
+      function getIFields(Index:Integer):IField;
+      procedure setIFields(Index:Integer;Value:IField);
+
+      property TableName:String read getTableName write setTableName;
+      property Fields[Index:Integer]:IField read getIFields write setIFields;
+    end;
+
+    //******************CLASSES ******************//
+
+    TField = class
+     private
+      FName:String;
+      FFieldType:TFieldType;
+      FIsPk:Boolean;
+      FValue:Variant;
+     protected
+
+      function getName:string;virtual;
+      procedure setName(Value:string);virtual;
+
+      function getFieldType:TFieldType;  virtual;
+      procedure setFieldType(Value:TFieldType);virtual;
+
+      function getIsPk:Boolean;virtual;
+      procedure setIsPk(Value:Boolean);virtual;
+
+      function getString:string;virtual;
+      procedure setString(Value:String);virtual;
+
+      function getFloat:Double;virtual;
+      procedure setFloat(Value:Double);virtual;
+
+      function getInteger:Integer;virtual;
+      procedure setInteger(Value:Integer);virtual;
+
+      function getDate:TDateTime;virtual;
+      procedure setDate(Value:TDateTime);virtual;
+
+      function getValue:Variant;virtual;
+      procedure setValue(Value:Variant);virtual;
+
+
+      property Name:String read getName write setName;
+      property FieldType:TFieldType read getFieldType write setFieldType;
+      property isPk:Boolean read getIsPk write setIsPk;
+      property AsString:string read getString  write setString;
+      property AsFloat:Double read getFloat write setFloat;
+      property AsInteger:integer read getInteger write setInteger;
+      property AsDate:TDateTime read getDate write setDate;
+      property AsValue:Variant read getValue write setValue;
+
+    end;
+
+implementation
+
+{ TField }
+
+function TField.getDate: TDateTime;
+begin
+  Result := FValue;
+end;
+
+function TField.getFieldType: TFieldType;
+begin
+  Result := FValue;
+end;
+
+function TField.getFloat: Double;
+begin
+  Result :=  FValue;
+end;
+
+function TField.getInteger: Integer;
+begin
+  Result := FValue;
+end;
+
+function TField.getIsPk: Boolean;
+begin
+  FIsPk := FValue;
+end;
+
+function TField.getName: string;
+begin
+  Result := FName;
+end;
+
+function TField.getString: string;
+begin
+  Result := FValue;
+end;
+
+function TField.getValue: Variant;
+begin
+  Result := FValue;
+end;
+
+procedure TField.setDate(Value: TDateTime);
+begin
+
+end;
+
+procedure TField.setFieldType(Value: TFieldType);
+begin
+
+end;
+
+procedure TField.setFloat(Value: Double);
+begin
+
+end;
+
+procedure TField.setInteger(Value: Integer);
+begin
+
+end;
+
+procedure TField.setIsPk(Value: Boolean);
+begin
+
+end;
+
+procedure TField.setName(Value: string);
+begin
+  FName := FValue;
+end;
+
+procedure TField.setString(Value: String);
+begin
+
+end;
+
+procedure TField.setValue(Value: Variant);
+begin
+
+end;
+
+end.

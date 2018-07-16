@@ -1,0 +1,171 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Formul'#225'rio Principal'
+  ClientHeight = 411
+  ClientWidth = 608
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 29
+    Width = 37
+    Height = 13
+    Caption = 'Codigo:'
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 69
+    Width = 31
+    Height = 13
+    Caption = 'Nome:'
+  end
+  object Label4: TLabel
+    Left = 48
+    Top = 200
+    Width = 37
+    Height = 13
+    Caption = 'Codigo:'
+  end
+  object Label5: TLabel
+    Left = 48
+    Top = 237
+    Width = 31
+    Height = 13
+    Caption = 'Nome:'
+  end
+  object Label6: TLabel
+    Left = 48
+    Top = 280
+    Width = 56
+    Height = 13
+    Caption = 'Quantidade'
+  end
+  object Label7: TLabel
+    Left = 304
+    Top = 112
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
+  object Label8: TLabel
+    Left = 304
+    Top = 69
+    Width = 31
+    Height = 13
+    Caption = 'Nome:'
+  end
+  object Label9: TLabel
+    Left = 304
+    Top = 29
+    Width = 37
+    Height = 13
+    Caption = 'Codigo:'
+  end
+  object Label3: TLabel
+    Left = 48
+    Top = 320
+    Width = 24
+    Height = 13
+    Caption = 'Valor'
+  end
+  object Edit1: TEdit
+    Left = 48
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 48
+    Top = 88
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object edtAddCodigo: TEdit
+    Left = 48
+    Top = 216
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object edtAddNome: TEdit
+    Left = 48
+    Top = 256
+    Width = 121
+    Height = 21
+    TabOrder = 3
+  end
+  object edtAddQuantidade: TEdit
+    Left = 48
+    Top = 296
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object Edit7: TEdit
+    Left = 304
+    Top = 88
+    Width = 121
+    Height = 21
+    TabOrder = 5
+  end
+  object Button2: TButton
+    Left = 431
+    Top = 126
+    Width = 75
+    Height = 25
+    Caption = 'Adicionar'
+    TabOrder = 6
+    OnClick = btnCadastrarClick
+  end
+  object Edit8: TEdit
+    Left = 304
+    Top = 128
+    Width = 121
+    Height = 21
+    TabOrder = 7
+  end
+  object Edit9: TEdit
+    Left = 304
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 8
+  end
+  object btnCadastrar: TButton
+    Left = 175
+    Top = 86
+    Width = 75
+    Height = 25
+    Caption = 'Cadastrar'
+    TabOrder = 9
+    OnClick = btnCadastrarClick
+  end
+  object edtAddValor: TEdit
+    Left = 48
+    Top = 336
+    Width = 121
+    Height = 21
+    TabOrder = 10
+  end
+  object btnAdicionar: TButton
+    Left = 175
+    Top = 334
+    Width = 75
+    Height = 25
+    Caption = 'btnAdicionar'
+    TabOrder = 11
+    OnClick = btnAdicionarClick
+  end
+end

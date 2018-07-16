@@ -1,0 +1,14 @@
+unit uClasses;
+
+interface
+   type
+        Produto = class
+          private
+
+          public
+                property Codigo:Integer read FCodigo write FCodigo;
+        end;
+
+implementation
+
+end.

@@ -1,0 +1,37 @@
+unit uInterfaces;
+
+interface
+
+  type
+    IAnimal = interface
+      function classe():string;
+    end;
+
+
+    TAnimal = class(TInterfacedObject,IAnimal)
+       function classe():string;virtual;
+       constructor Create;override;
+       destructor Destroy;override;
+    end;
+
+implementation
+
+{ TAnimal }
+
+function TAnimal.classe: string;
+begin
+
+end;
+
+constructor TAnimal.Create;
+begin
+  inherited;
+end;
+
+destructor TAnimal.Destroy;
+begin
+  inherited;
+  TAnimal.free;
+end;
+
+end.

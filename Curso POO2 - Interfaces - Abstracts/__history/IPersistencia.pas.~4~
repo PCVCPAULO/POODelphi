@@ -1,0 +1,28 @@
+unit IPersistencia;
+
+interface
+
+  type
+    TFieldType = (ftString, ftMemo, ftFloat, ftInteger, ftDate);
+
+
+    IField = interface
+
+      function getName:string;
+      procedure setName(value:string);
+      function getFieldType:TFieldType;
+      procedure setFieldType(Value:TFieldType);
+      function getIsPk:Boolean;
+      procedure setIsPk(Value:Boolean);
+
+
+      property Name:String read getName write setName;
+      property FieldType:TFieldType read getFieldType write setFieldType;
+      property isPk:Boolean read getIsPk write setIsPk;
+
+
+    end;
+
+implementation
+
+end.

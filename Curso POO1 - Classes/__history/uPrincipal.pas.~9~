@@ -1,0 +1,73 @@
+unit uPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uClasses, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label4: TLabel;
+    Edit4: TEdit;
+    Label5: TLabel;
+    Edit5: TEdit;
+    Label6: TLabel;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    Button2: TButton;
+    Edit8: TEdit;
+    Label7: TLabel;
+    Label8: TLabel;
+    Edit9: TEdit;
+    Label9: TLabel;
+    btnCadastrar: TButton;
+    Label3: TLabel;
+    Edit3: TEdit;
+    btnAdicionar: TButton;
+    procedure btnCadastrarClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure btnAdicionarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+var
+  Pedido : TPedido;
+
+procedure TfrmPrincipal.btnAdicionarClick(Sender: TObject);
+var
+  item :TItem;
+begin
+
+end;
+
+procedure TfrmPrincipal.btnCadastrarClick(Sender: TObject);
+var
+   obj : TProduto;
+begin
+  obj := TProduto.Create;
+  Edit1.Text := IntToStr(obj.Codigo);
+  Edit2.Text := obj.Nome;
+
+end;
+
+procedure TfrmPrincipal.FormCreate(Sender: TObject);
+begin
+ Pedido := TPedido.Create;
+end;
+
+end.

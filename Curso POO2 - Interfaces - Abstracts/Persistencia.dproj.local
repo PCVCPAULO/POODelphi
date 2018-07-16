@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018/07/16 16:10:56.621,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/16 16:11:43.123,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\uPrincipal.pas=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/16 16:11:43.123,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\uPrincipal.dfm=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/07/16 16:12:05.899,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\Percistencia.dproj=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/07/16 16:12:29.340,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\Persistencia.dproj=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\Percistencia.dproj</Transaction>
+    <Transaction>2018/07/16 16:12:39.019,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\Unit1.pas</Transaction>
+    <Transaction>2018/07/16 16:13:03.110,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\IPersistencia.pas=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\Unit1.pas</Transaction>
+    <Transaction>2018/07/16 16:26:25.868,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\Unit1.pas</Transaction>
+    <Transaction>2018/07/16 16:26:33.455,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\ITable.pas=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\Unit1.pas</Transaction>
+    <Transaction>2018/07/16 16:33:20.611,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Curso POO4 - Persistencia\ITable.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
